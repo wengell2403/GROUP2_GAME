@@ -1,0 +1,8 @@
+Label
+CanvasLayer
+Camera2D
+TileMap
+Node
+CollisionShape2D
+Area2D
+Line2D

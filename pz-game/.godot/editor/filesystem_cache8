@@ -1,0 +1,7 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1741529824
+icon.svg::CompressedTexture2D::8730483102496530510::1740543899::1740543909::1::::<><>::
+main.tscn::PackedScene::7999847904522035030::1740543997::0::1::::<><>::uid://178w7nhc45p0::::res://puzzle_manager.tscn
+puzzle_manager.tscn::PackedScene::1893014672097513527::1740543997::0::1::::<><>::uid://c0uuoduh4u1s8::::res://vector_style5.png<>res://tileset.gd
+tileset.gd::GDScript::-1::1740543899::0::1::::<>TileMap<>::
+vector_style5.png::CompressedTexture2D::6570089543211962301::1740543899::1740543909::1::::<><>::

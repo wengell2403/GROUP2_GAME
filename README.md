@@ -1,2 +1,2 @@
-# GROUP2_GAME
+# University Adventures
  
