@@ -1,5 +1,2 @@
-res://Scene/main_menu.tscn
+res://Scene/Levels/level8_bshm.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
-res://Scene/mini game/control.tscn
-res://Scene/Levels/level1.tscn
-res://Scene/Levels/level7_bshm.tscn
