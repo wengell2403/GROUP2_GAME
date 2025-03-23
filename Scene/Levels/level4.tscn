@@ -18,7 +18,7 @@
 [ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="14_me2if"]
 [ext_resource type="PackedScene" uid="uid://c0wwcxvo26k1a" path="res://Scene/Game Objects/collectible_4.tscn" id="15_8l1tm"]
 [ext_resource type="PackedScene" uid="uid://c2jm41k33kn6v" path="res://Scene/Game Objects/moving_platform.tscn" id="16_ia0o2"]
-[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="18_3iy8q"]
+[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Assets/Characters/enemy_fear.tscn" id="18_3iy8q"]
 [ext_resource type="PackedScene" uid="uid://3e8r72cattme" path="res://Scene/Game Objects/tarpoline_bounce.tscn" id="20_jvqoi"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_odcbn"]

@@ -8,9 +8,9 @@
 [ext_resource type="Texture2D" uid="uid://6i8o7w7v4sv0" path="res://Assets/Terrain/blue_mud tile.png" id="6_bfi0g"]
 [ext_resource type="PackedScene" uid="uid://7xdbgqrvjitt" path="res://Scene/Game Objects/character_HM.tscn" id="7_24qjv"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="8_uu73h"]
-[ext_resource type="PackedScene" uid="uid://c4ftq23q1li7s" path="res://Scene/Levels/level4.tscn" id="9_i2ev3"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="10_22u5x"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="11_qysma"]
+[ext_resource type="PackedScene" uid="uid://cjqqu3oqrqe6" path="res://Scene/Levels/level4_bshm.tscn" id="11_vktep"]
 [ext_resource type="Texture2D" uid="uid://c6pqbdsbqfdc6" path="res://Assets/Game_Elements/ui_score.png" id="12_unsj2"]
 [ext_resource type="PackedScene" uid="uid://bti6qckk3jkl0" path="res://Scene/Game Objects/collectible_3bshm.tscn" id="13_sfqgy"]
 [ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="13_wekc4"]
@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://b0wo02j30lmx1" path="res://Scene/Game Objects/audio_controller.tscn" id="16_31tvq"]
 [ext_resource type="PackedScene" uid="uid://3e8r72cattme" path="res://Scene/Game Objects/tarpoline_bounce.tscn" id="18_q2c40"]
 [ext_resource type="PackedScene" uid="uid://c2jm41k33kn6v" path="res://Scene/Game Objects/moving_platform.tscn" id="19_ftblk"]
-[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="20_xdwey"]
+[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Assets/Characters/enemy_fear.tscn" id="20_xdwey"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_57y88"]
 shader = ExtResource("4_7rony")
@@ -491,13 +491,14 @@ texture_filter = 1
 scale = Vector2(3, 3)
 tile_set = SubResource("TileSet_avcyb")
 format = 2
+layer_0/tile_data = PackedInt32Array(131073, 2424832, 28, 196609, 2424832, 29, 262145, 2424832, 30, 327681, 2424832, 31, 131074, 2490368, 28, 196610, 2490368, 29, 262146, 2490368, 30, 327682, 2490368, 31, 786447, 2424832, 28, 851983, 2424832, 29, 917519, 2424832, 30, 983055, 2424832, 31, 786448, 2490368, 28, 851984, 2490368, 29, 917520, 2490368, 30, 983056, 2490368, 31, 31, 2424832, 28, 65567, 2424832, 29, 131103, 2424832, 30, 196639, 2424832, 31, 32, 2490368, 28, 65568, 2490368, 29, 131104, 2490368, 30, 196640, 2490368, 31, 524337, 2424832, 28, 589873, 2424832, 29, 655409, 2424832, 30, 720945, 2424832, 31, 524338, 2490368, 28, 589874, 2490368, 29, 655410, 2490368, 30, 720946, 2490368, 31, 196659, 2424832, 28, 262195, 2424832, 29, 327731, 2424832, 30, 393267, 2424832, 31, 196660, 2490368, 28, 262196, 2490368, 29, 327732, 2490368, 30, 393268, 2490368, 31, 917552, 2424832, 28, 983088, 2424832, 29, 1048624, 2424832, 30, 1114160, 2424832, 31, 917553, 2490368, 28, 983089, 2490368, 29, 1048625, 2490368, 30, 1114161, 2490368, 31, 917529, 2424832, 33, 983065, 2424832, 34, 917530, 2490368, 33, 983066, 2490368, 34, 1048617, 2424832, 33, 1114153, 2424832, 34, 1048618, 2490368, 33, 1114154, 2490368, 34, 262148, 2424832, 33, 327684, 2424832, 34, 262149, 2490368, 33, 327685, 2490368, 34)
 
 [node name="CharacterBody2D" parent="SceneObjects" instance=ExtResource("7_24qjv")]
 position = Vector2(65, -417)
 
 [node name="Trophy" parent="SceneObjects" instance=ExtResource("8_uu73h")]
 position = Vector2(2447, 826)
-target_level = ExtResource("9_i2ev3")
+target_level = ExtResource("11_vktep")
 
 [node name="fall_area" type="Area2D" parent="SceneObjects"]
 script = ExtResource("10_22u5x")

@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://botqha5f3d8vu"]
 
-[ext_resource type="Script" path="res://Scene/Game Objects/enemy_fear.gd" id="1_4yq5e"]
+[ext_resource type="Script" path="res://Assets/Characters/enemy_fear.gd" id="1_4yq5e"]
 [ext_resource type="Texture2D" uid="uid://c4vidcct5dpvw" path="res://Assets/Characters/EnemySprites/anxiety_idle.png" id="2_x6k4m"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_rjl0n"]

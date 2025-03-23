@@ -9,8 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://6i8o7w7v4sv0" path="res://Assets/Terrain/blue_mud tile.png" id="6_y1es0"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="8_u1whd"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="10_2ss33"]
-[ext_resource type="PackedScene" uid="uid://pmk4ajim12u3" path="res://Scene/main_menu.tscn" id="10_g56rw"]
-[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="10_uqyqj"]
+[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Assets/Characters/enemy_fear.tscn" id="10_uqyqj"]
+[ext_resource type="PackedScene" uid="uid://doy0hwc7tu7b8" path="res://Scene/Levels/level8_bshm.tscn" id="10_xgg3d"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="11_wmkbc"]
 [ext_resource type="Texture2D" uid="uid://c6pqbdsbqfdc6" path="res://Assets/Game_Elements/ui_score.png" id="12_bl3u3"]
 [ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="13_0e1r0"]
@@ -595,10 +595,11 @@ texture_filter = 1
 scale = Vector2(3, 3)
 tile_set = SubResource("TileSet_avcyb")
 format = 2
+layer_0/tile_data = PackedInt32Array(851968, 2424832, 28, 917504, 2424832, 29, 983040, 2424832, 30, 1048576, 2424832, 31, 851969, 2490368, 28, 917505, 2490368, 29, 983041, 2490368, 30, 1048577, 2490368, 31, 393219, 2424832, 28, 458755, 2424832, 29, 524291, 2424832, 30, 589827, 2424832, 31, 393220, 2490368, 28, 458756, 2490368, 29, 524292, 2490368, 30, 589828, 2490368, 31, -65518, 2424832, 28, 18, 2424832, 29, 65554, 2424832, 30, 131090, 2424832, 31, -65517, 2490368, 28, 19, 2490368, 29, 65555, 2490368, 30, 131091, 2490368, 31, -65514, 2424832, 28, 22, 2424832, 29, 65558, 2424832, 30, 131094, 2424832, 31, -65513, 2490368, 28, 23, 2490368, 29, 65559, 2490368, 30, 131095, 2490368, 31, -65509, 2424832, 28, 27, 2424832, 29, 65563, 2424832, 30, 131099, 2424832, 31, -65508, 2490368, 28, 28, 2490368, 29, 65564, 2490368, 30, 131100, 2490368, 31, 327692, 2424832, 33, 393228, 2424832, 34, 327693, 2490368, 33, 393229, 2490368, 34)
 
 [node name="Trophy" parent="SceneObjects" instance=ExtResource("8_u1whd")]
 position = Vector2(2407, 152)
-target_level = ExtResource("10_g56rw")
+target_level = ExtResource("10_xgg3d")
 
 [node name="fall_area" type="Area2D" parent="SceneObjects"]
 script = ExtResource("10_2ss33")
