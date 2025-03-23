@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1742719041
+::res://::1742722655
 README.md::TextFile::-1::1742535186::0::1::::<><>::
 tic_tac_toe.gd::GDScript::-1::1742546126::0::1::::<>Control<>::
 tileset.gd::GDScript::-1::1742538784::0::1::::<>TileMap<>::
@@ -68,7 +68,7 @@ dialog_text.gd::GDScript::-1::1742535188::0::1::::DialogText<>DialogItem<>::
 Dialog Bubble.png::CompressedTexture2D::4327505868440247668::1742535188::1742718159::1::::<><>::
 dialog_system.gd::GDScript::-1::1742718183::0::1::::DialogSystemNode<>CanvasLayer<>::
 quest trigger-Sheet.png::CompressedTexture2D::8491993945234545500::1742535188::1742718159::1::::<><>::
-::res://Assets/Game_Elements/::1742721223
+::res://Assets/Game_Elements/::1742725767
 banquetcs.png::CompressedTexture2D::6988855781074885590::1742535189::1742718159::1::::<><>::
 binarycs.png::CompressedTexture2D::536602701702788481::1742535189::1742718159::1::::<><>::
 Books-Collectiblespack.png::CompressedTexture2D::4015970492350343471::1742535188::1742718159::1::::<><>::
@@ -88,7 +88,7 @@ htmlcs.png::CompressedTexture2D::4926658421152192440::1742535189::1742718159::1:
 jeepcs.png::CompressedTexture2D::958097572970693358::1742719351::1742719351::1::::<><>::
 kitchencs.png::CompressedTexture2D::978777518755192707::1742535189::1742718159::1::::<><>::
 lifeguardcs.png::CompressedTexture2D::2954694682640227993::1742721223::1742721223::1::::<><>::
-luggagecs.png::CompressedTexture2D::976079355900159182::1742719351::1742719351::1::::<><>::
+luggagecs.png::CompressedTexture2D::976079355900159182::1742725767::1742725767::1::::<><>::
 mapcs.png::CompressedTexture2D::251285258355608743::1742720174::1742720174::1::::<><>::
 mapotofucs.png::CompressedTexture2D::946965560350879683::1742535189::1742718159::1::::<><>::
 music1.wav::AudioStreamWAV::4604160152837068402::1742535190::1742718163::1::::<><>::
@@ -100,7 +100,7 @@ Strawberry.png::CompressedTexture2D::6985634153617803591::1742535188::1742718159
 suitcs.png::CompressedTexture2D::7519799664740489750::1742718963::1742718964::1::::<><>::
 SummerPixel22Regular-jE0W7.ttf::FontFile::949828253040535939::1742535188::1742718159::1::::<><>::
 thesiscs.png::CompressedTexture2D::5243657383692446675::1742535190::1742718159::1::::<><>::
-ticketcs.png::CompressedTexture2D::1333366815459032584::1742719351::1742719351::1::::<><>::
+ticketcs.png::CompressedTexture2D::1333366815459032584::1742725767::1742719351::1::::<><>::
 trampoline.png::CompressedTexture2D::4709093246802931364::1742535190::1742718159::1::::<><>::
 ui_button.png::CompressedTexture2D::665699792798683273::1742535190::1742718159::1::::<><>::
 ui_score.png::CompressedTexture2D::6980634629597817783::1742535190::1742718159::1::::<><>::
@@ -121,7 +121,7 @@ main_menu.tscn::PackedScene::1078264159853922688::1742718183::0::1::::<><>::res:
 moving_cloud.gdshader::Shader::-1::1742535190::0::1::::<><>::
 scroll2.gdshader::Shader::-1::1742535190::0::1::::<><>::
 scroll.gdshader::Shader::-1::1742535190::0::1::::<><>::
-::res://Scene/Game Objects/::1742720242
+::res://Scene/Game Objects/::1742725833
 audio_controller.gd::GDScript::-1::1742535190::0::1::::<>Node<>::
 audio_controller.tscn::PackedScene::4187454201319319552::1742664867::0::1::::<><>::res://Scene/Game Objects/audio_controller.gd<>uid://b6uj3y4qytnok::::res://Assets/Game_Elements/music1.wav
 character_HM.tscn::PackedScene::2293707962190415857::1742535190::0::1::::<><>::res://Scene/Game Objects/character_it.gd<>uid://cgbi24ansh7ja::::res://Assets/Characters/CharBSHMSprites/BSHM Idle.png<>uid://djfs4agj1066l::::res://Assets/Characters/CharBSHMSprites/BSHM Jump.png<>uid://cskmtqi7o1b8x::::res://Assets/Characters/CharBSHMSprites/BSHM Fall.png<>uid://cy0clfk8qvg4e::::res://Assets/Characters/CharBSHMSprites/BSHM Run.png
@@ -133,20 +133,23 @@ cloud.tscn::PackedScene::9147985141511909539::1742535191::0::1::::<><>::uid://bw
 collectible_1.tscn::PackedScene::7959638536817173738::1742545794::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://cyp0xelpvdqu7::::res://Scene/mini game/control.tscn<>uid://bxhmphbo3nyt8::::res://Assets/Game_Elements/Books-Collectiblespack.png<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png
 collectible_1bshm.tscn::PackedScene::104402217363974189::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://chrdvbcjbma3k::::res://Assets/Game_Elements/housekeepingcs.png
 collectible_1bstm.tscn::PackedScene::5385017542843731046::1742718996::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://dfewacdusbg51::::res://Assets/Game_Elements/suitcs.png
-collectible_1bstm_2.tscn::PackedScene::5274054266314208541::1742719196::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://n4xdugqgmr0p::::res://Assets/Game_Elements/dresscs.png
 collectible_2.gd::GDScript::-1::1742545973::0::1::::<>Area2D<>::
 collectible_2.tscn::PackedScene::8230882697583181328::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://ccgrlyens60eu::::res://Assets/Game_Elements/htmlcs.png<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png
-collectible_2bshm.tscn::PackedScene::1881646167180706990::1742720186::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://dtyvqaflmxp4::::res://Assets/Game_Elements/mapcs.png
-collectible_2bstm.tscn::PackedScene::8937865078532110290::1742719374::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://n7ek8cxlwbfv::::res://Assets/Game_Elements/kitchencs.png
+collectible_2bshm.tscn::PackedScene::1881646167180706990::1742722703::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://n7ek8cxlwbfv::::res://Assets/Game_Elements/kitchencs.png
+collectible_2bstm.tscn::PackedScene::8937865078532110290::1742722726::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://n4xdugqgmr0p::::res://Assets/Game_Elements/dresscs.png
+collectible_2bstma.tscn::PackedScene::-1::1742719196::0::1::::<><>::
 collectible_3.tscn::PackedScene::1330454737447468322::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://d0v2g44fc0x4u::::res://Assets/Game_Elements/statisticscs.png
 collectible_3bshm.tscn::PackedScene::3738434655313315071::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://caqqeihnqx3n7::::res://Assets/Game_Elements/pastrycs.png
-collectible_3bstm.tscn::PackedScene::2542821089291390892::1742720242::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png
+collectible_3bstm.tscn::PackedScene::2542821089291390892::1742722748::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://dtyvqaflmxp4::::res://Assets/Game_Elements/mapcs.png
 collectible_4.tscn::PackedScene::6574319355506352708::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://cppyj8kck2u1i::::res://Assets/Game_Elements/databasecs.png
 collectible_4bshm.tscn::PackedScene::772548094482321488::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://doyvym33t3yet::::res://Assets/Game_Elements/drinkscs.png
+collectible_4bstm.tscn::PackedScene::7632792903719961069::1742722862::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://bidjnishkirtp::::res://Assets/Game_Elements/lifeguardcs.png
 collectible_5.tscn::PackedScene::139324473669810713::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bhkwq8mk2t4l5::::res://Assets/Game_Elements/networkcs.png<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png
 collectible_5bshm.tscn::PackedScene::5481121515150473076::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://c6tpo0jm8bsuo::::res://Assets/Game_Elements/banquetcs.png
+collectible_5bstm.tscn::PackedScene::4868283319373243815::1742725783::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://n525cl4dxmn3::::res://Assets/Game_Elements/luggagecs.png
 collectible_6.tscn::PackedScene::3659158597014391999::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://hv61d6ls5hqv::::res://Assets/Game_Elements/binarycs.png
 collectible_6bshm.tscn::PackedScene::1261608340437087148::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://nqyncnp0gi3l::::res://Assets/Game_Elements/mapotofucs.png
+collectible_6bstm.tscn::PackedScene::6289249360974404759::1742726532::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://s85mejriww6c::::res://Assets/Game_Elements/ticketcs.png
 collectible_7.tscn::PackedScene::6569836569733066141::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://cxdpboqx5n10l::::res://Assets/Game_Elements/capstonecs.png
 collectible_8.tscn::PackedScene::4824868295576109601::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://my10d83y5u1j::::res://Assets/Game_Elements/ojtcs.png
 collectible_9.tscn::PackedScene::7310573175076460907::1742535191::0::1::::<><>::res://Scene/Game Objects/collectible_2.gd<>uid://bcmmh637yd4ey::::res://Assets/Game_Elements/Collected.png<>uid://cgycjhjpbjw5h::::res://Assets/Game_Elements/thesiscs.png
@@ -183,6 +186,7 @@ main_scene.gd::GDScript::-1::1742535192::0::1::::<>Node<>::
 moving_platform.gd::GDScript::-1::1742535192::0::1::::<>Path2D<>::
 path_follow_2d.gd::GDScript::-1::1742535192::0::1::::<>PathFollow2D<>::
 pause.gd::GDScript::-1::1742535192::0::1::::<>Node<>::
+level1_bstm.tscn::PackedScene::7657884037188128550::1742726557::0::1::::<><>::res://Scene/Levels/main_scene.gd<>uid://t52d7v42wwr4::::res://Assets/Background/sky.png<>uid://d3ll8jor742i6::::res://Scene/Game Objects/cloud.tscn<>res://Scene/moving_cloud.gdshader<>uid://ddkdlb36416r::::res://Assets/Terrain/Terrain (16x16).png<>uid://6i8o7w7v4sv0::::res://Assets/Terrain/blue_mud tile.png<>uid://rp7d3gem3c8e::::res://Scene/Game Objects/trophy.tscn<>uid://b2g0ux0hb1pge::::res://Scene/Levels/level2_bshm.tscn<>uid://7xdbgqrvjitt::::res://Scene/Game Objects/character_HM.tscn<>res://Scene/Game Objects/fall_area.gd<>res://Scene/Levels/game_manager.gd<>uid://c6pqbdsbqfdc6::::res://Assets/Game_Elements/ui_score.png<>uid://nsdsdvtwvjbv::::res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf<>uid://g6vpe88m4uoy::::res://Assets/Game_Elements/heart.png<>res://Scene/Levels/pause.gd<>uid://b0wo02j30lmx1::::res://Scene/Game Objects/audio_controller.tscn<>uid://dtqmxufyuc6sw::::res://Assets/DialogSystem/Dialogs/dialog_interaction.tscn<>res://Assets/DialogSystem/Dialogs/dialog_text.gd<>uid://3e8r72cattme::::res://Scene/Game Objects/tarpoline_bounce.tscn<>uid://c2jm41k33kn6v::::res://Scene/Game Objects/moving_platform.tscn<>uid://bqtqvueu1k42::::res://Scene/Game Objects/collectible_1bshm.tscn
 trampoline.gd::GDScript::-1::1742535192::0::1::::<>RigidBody2D<>::
 ::res://Scene/Menu/::1742663758
 character_select.gd::GDScript::-1::1742535192::0::1::::<>Node<>::
