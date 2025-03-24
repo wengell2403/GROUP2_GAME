@@ -10,7 +10,7 @@
 [ext_resource type="PackedScene" uid="uid://c8cpscb14pvnb" path="res://Scene/Levels/level8.tscn" id="9_bek53"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="10_q8byc"]
 [ext_resource type="PackedScene" uid="uid://c0uqipgveucav" path="res://Scene/Game Objects/collectible_7.tscn" id="11_g5ifh"]
-[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="12_8g2dr"]
+[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Assets/Characters/enemy_fear.tscn" id="12_8g2dr"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="12_a12io"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="14_7vr2l"]
 [ext_resource type="Texture2D" uid="uid://c6pqbdsbqfdc6" path="res://Assets/Game_Elements/ui_score.png" id="15_531vk"]

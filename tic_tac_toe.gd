@@ -1,7 +1,5 @@
 extends Control
 
-signal game_finished  # Create signal for ending
-
 var board = ["", "", "", "", "", "", "", "", ""]
 var current_player = "X"
 var game_over = false
@@ -15,6 +13,13 @@ func _ready():
 	buttons = grid_container.get_children()  # Get all button nodes
 	for i in range(9):
 		buttons[i].connect("pressed", Callable(self, "_on_cell_pressed").bind(i))  # Connect buttons to function
+		
+		
+	for button in buttons:
+		button.add_theme_font_size_override("font_size", 50)  # Larger text
+		button.add_theme_color_override("font_color", Color(0, 0, 0))  # Dark text
+		button.add_theme_constant_override("corner_radius", 20)  # Rounded edges
+		button.add_theme_color_override("bg_color", Color(0.9, 0.9, 0.9))  # Light gray background
 
 	restart_button.connect("pressed", Callable(self, "_restart_game"))  # Restart game on button press
 
@@ -67,7 +72,6 @@ func check_winner():
 		game_over = true
 		result_label.text = "Draw!"  # Properly update label
 		print("Draw!")  # Debugging
-		emit_signal("game_finished")  # Also remove game on draw
 
 func _restart_game():
 	board = ["", "", "", "", "", "", "", "", ""]  # Reset board state
@@ -79,3 +83,6 @@ func _restart_game():
 		buttons[i].text = ""  # Reset button texts
 
 	print("Game restarted")  # Debugging
+
+func _on_button_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scene/Menu/minigame_menu.tscn")

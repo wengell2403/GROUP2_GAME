@@ -746,220 +746,220 @@ position = Vector2(2330, 819)
 [node name="collectible_25" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2400, 818)
 
-[node name="collectible_2" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_26" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2082, 764)
 
-[node name="collectible_3" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_27" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2026, 702)
 
-[node name="collectible_4" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_28" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2078, 642)
 
-[node name="collectible_5" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_29" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2133, 700)
 
-[node name="collectible_6" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_30" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1877, 623)
 
-[node name="collectible_7" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_31" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1818, 574)
 
-[node name="collectible_8" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_32" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1934, 575)
 
-[node name="collectible_9" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_33" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1874, 518)
 
-[node name="collectible_10" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_34" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2111, 120)
 
-[node name="collectible_11" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_35" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2058, 158)
 
-[node name="collectible_12" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_36" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(2004, 201)
 
-[node name="collectible_13" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_37" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1951, 246)
 
-[node name="collectible_14" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_38" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1898, 291)
 
-[node name="collectible_15" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_39" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1842, 343)
 
-[node name="collectible_16" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_40" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1789, 391)
 
-[node name="collectible_17" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_41" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1654, 475)
 
-[node name="collectible_18" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_42" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1607, 424)
 
-[node name="collectible_19" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_43" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1557, 379)
 
-[node name="collectible_20" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_44" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1504, 420)
 
-[node name="collectible_21" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_45" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1462, 473)
 
-[node name="collectible_22" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_46" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1408, 420)
 
-[node name="collectible_23" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_47" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1360, 375)
 
-[node name="collectible_24" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_48" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1306, 422)
 
-[node name="collectible_25" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_49" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1264, 476)
 
-[node name="collectible_26" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_50" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1213, 426)
 
-[node name="collectible_27" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_51" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1156, 374)
 
-[node name="collectible_28" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_52" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1102, 423)
 
-[node name="collectible_29" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_53" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1049, 476)
 
-[node name="collectible_30" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_54" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(737, 498)
 
-[node name="collectible_31" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_55" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(739, 554)
 
-[node name="collectible_32" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_56" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(739, 610)
 
-[node name="collectible_33" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_57" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(739, 669)
 
-[node name="collectible_34" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_58" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(678, 669)
 
-[node name="collectible_35" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_59" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(619, 669)
 
-[node name="collectible_36" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_60" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(553, 669)
 
-[node name="collectible_37" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_61" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(553, 611)
 
-[node name="collectible_38" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_62" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(554, 557)
 
-[node name="collectible_39" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_63" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(553, 498)
 
-[node name="collectible_40" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_64" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(553, 439)
 
-[node name="collectible_41" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_65" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(552, 378)
 
-[node name="collectible_42" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_66" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(551, 320)
 
-[node name="collectible_43" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_67" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(551, 265)
 
-[node name="collectible_44" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_68" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(-11, 228)
 
-[node name="collectible_45" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_69" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(47, 228)
 
-[node name="collectible_46" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_70" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(106, 243)
 
-[node name="collectible_47" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_71" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(210, 301)
 
-[node name="collectible_49" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_72" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(264, 375)
 
-[node name="collectible_50" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_73" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(316, 375)
 
-[node name="collectible_52" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_74" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(159, 442)
 
-[node name="collectible_51" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_75" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(208, 398)
 
-[node name="collectible_48" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_76" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(-13, 178)
 
-[node name="collectible_53" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_77" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(47, 176)
 
-[node name="collectible_54" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_78" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(262, 325)
 
-[node name="collectible_55" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_79" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(316, 325)
 
-[node name="collectible_56" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_80" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(159, 266)
 
-[node name="collectible_57" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_81" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(109, 473)
 
-[node name="collectible_58" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_82" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(53, 534)
 
-[node name="collectible_59" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_83" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(54, 486)
 
-[node name="collectible_60" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_84" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(1, 486)
 
-[node name="collectible_61" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_85" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(7, 533)
 
-[node name="collectible_62" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_86" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(110, 553)
 
-[node name="collectible_63" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_87" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(157, 574)
 
-[node name="collectible_64" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_88" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(206, 598)
 
-[node name="collectible_65" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_89" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(259, 675)
 
-[node name="collectible_66" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_90" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(258, 626)
 
-[node name="collectible_67" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_91" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(312, 626)
 
-[node name="collectible_68" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_92" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(313, 674)
 
-[node name="collectible_69" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_93" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(205, 700)
 
-[node name="collectible_70" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_94" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(151, 729)
 
-[node name="collectible_71" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_95" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(101, 756)
 
-[node name="collectible_72" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_96" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(99, 808)
 
-[node name="collectible_73" parent="." instance=ExtResource("16_mft8u")]
+[node name="collectible_97" parent="html collectible" instance=ExtResource("16_mft8u")]
 position = Vector2(99, 861)
 
 [connection signal="body_entered" from="SceneObjects/fall_area" to="SceneObjects/fall_area" method="_on_body_entered"]

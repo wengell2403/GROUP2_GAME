@@ -19,7 +19,7 @@
 [ext_resource type="PackedScene" uid="uid://b0wo02j30lmx1" path="res://Scene/Game Objects/audio_controller.tscn" id="15_8gj1k"]
 [ext_resource type="PackedScene" uid="uid://s7qno10aggji" path="res://Scene/Game Objects/collectible_3.tscn" id="15_n6vug"]
 [ext_resource type="PackedScene" uid="uid://3e8r72cattme" path="res://Scene/Game Objects/tarpoline_bounce.tscn" id="16_wl0m1"]
-[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Scene/Game Objects/enemy_fear.tscn" id="17_ekecf"]
+[ext_resource type="PackedScene" uid="uid://botqha5f3d8vu" path="res://Assets/Characters/enemy_fear.tscn" id="17_ekecf"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_57y88"]
 shader = ExtResource("4_w0hwm")
