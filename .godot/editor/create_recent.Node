@@ -2,6 +2,7 @@ Button
 TextureRect
 Label
 Node
+AnimatedSprite2D
 VBoxContainer
 ScrollContainer
 AudioStreamPlayer2D
