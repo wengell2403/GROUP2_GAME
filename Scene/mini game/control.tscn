@@ -1,6 +1,10 @@
-[gd_scene load_steps=2 format=3 uid="uid://cyp0xelpvdqu7"]
+[gd_scene load_steps=6 format=3 uid="uid://cyp0xelpvdqu7"]
 
 [ext_resource type="Script" path="res://tic_tac_toe.gd" id="1_eocnw"]
+[ext_resource type="Texture2D" uid="uid://cn1fvxu1yd23u" path="res://Assets/Background/dawn_bg.png" id="2_bw0kr"]
+[ext_resource type="FontFile" uid="uid://bxppybk3mrem8" path="res://Fonts/Pixels.ttf" id="3_6ykvc"]
+[ext_resource type="Texture2D" uid="uid://jqp8i7gf6s3b" path="res://Assets/Game_Elements/ui_button.png" id="4_4n4gu"]
+[ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="5_dr54w"]
 
 [node name="tic_tac_toe" type="Control"]
 z_index = 5
@@ -12,14 +16,6 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_eocnw")
 
-[node name="result_label" type="Label" parent="."]
-layout_mode = 2
-offset_left = 340.0
-offset_top = 81.0
-offset_right = 440.0
-offset_bottom = 126.0
-theme_override_font_sizes/font_size = 32
-
 [node name="restart_button" type="Button" parent="."]
 custom_minimum_size = Vector2(10, 10)
 layout_mode = 0
@@ -28,29 +24,44 @@ offset_top = 28.0
 offset_right = 59.0
 offset_bottom = 38.0
 
+[node name="DawnBg" type="Sprite2D" parent="."]
+position = Vector2(576.75, 324)
+scale = Vector2(0.560791, 0.594444)
+texture = ExtResource("2_bw0kr")
+
+[node name="title_label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 55.0
+offset_top = 149.0
+offset_right = 406.0
+offset_bottom = 239.0
+theme_override_fonts/font = ExtResource("3_6ykvc")
+theme_override_font_sizes/font_size = 122
+text = "TIC TAC TOE"
+
 [node name="GridContainer" type="GridContainer" parent="."]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 0
-offset_left = 462.0
-offset_top = 139.0
-offset_right = 781.0
-offset_bottom = 454.0
+offset_left = 476.0
+offset_top = 21.0
+offset_right = 1084.0
+offset_bottom = 629.0
 columns = 3
 
 [node name="Button1" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(100, 100)
+custom_minimum_size = Vector2(200, 200)
 layout_mode = 2
 
 [node name="Button2" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(100, 0)
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 
 [node name="Button3" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(100, 0)
+custom_minimum_size = Vector2(200, 0)
 layout_mode = 2
 
 [node name="Button4" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(0, 100)
+custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 
 [node name="Button5" type="Button" parent="GridContainer"]
@@ -60,7 +71,7 @@ layout_mode = 2
 layout_mode = 2
 
 [node name="Button7" type="Button" parent="GridContainer"]
-custom_minimum_size = Vector2(0, 100)
+custom_minimum_size = Vector2(0, 200)
 layout_mode = 2
 
 [node name="Button8" type="Button" parent="GridContainer"]
@@ -68,3 +79,44 @@ layout_mode = 2
 
 [node name="Button9" type="Button" parent="GridContainer"]
 layout_mode = 2
+
+[node name="result_label" type="Label" parent="."]
+layout_mode = 2
+offset_left = 100.0
+offset_top = 345.0
+offset_right = 200.0
+offset_bottom = 419.0
+theme_override_fonts/font = ExtResource("3_6ykvc")
+theme_override_font_sizes/font_size = 100
+
+[node name="back" type="TextureRect" parent="."]
+texture_filter = 1
+layout_mode = 0
+offset_left = 23.0
+offset_top = 20.0
+offset_right = 121.0
+offset_bottom = 82.0
+texture = ExtResource("4_4n4gu")
+
+[node name="Button" type="Button" parent="back"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -17.0
+offset_top = -29.0
+offset_right = 23.0
+offset_bottom = 50.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.721569, 1, 0.6, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("5_dr54w")
+theme_override_font_sizes/font_size = 67
+text = "<"
+flat = true
+
+[connection signal="pressed" from="back/Button" to="." method="_on_button_pressed"]

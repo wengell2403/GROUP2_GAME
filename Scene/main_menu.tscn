@@ -170,10 +170,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -493.5
-offset_top = -291.5
-offset_right = 493.5
-offset_bottom = 229.5
+offset_left = -488.0
+offset_top = -372.0
+offset_right = 499.0
+offset_bottom = 149.0
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("4_01062")
@@ -188,10 +188,10 @@ anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-offset_left = -152.5
-offset_top = -172.0
-offset_right = 152.5
-offset_bottom = -28.0
+offset_left = -328.0
+offset_top = -248.0
+offset_right = -64.0
+offset_bottom = -144.0
 grow_horizontal = 2
 grow_vertical = 0
 size_flags_horizontal = 0
@@ -205,10 +205,10 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-offset_left = -77.5
-offset_top = -29.0
-offset_right = 95.5
-offset_bottom = 62.0
+offset_left = -92.0
+offset_top = -28.0
+offset_right = 101.0
+offset_bottom = 63.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(1, 1, 1, 1)
@@ -217,6 +217,120 @@ theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("6_c6uc0")
 theme_override_font_sizes/font_size = 80
 text = "START"
+flat = true
+
+[node name="TextureRect3" type="TextureRect" parent="button start"]
+texture_filter = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -32.0
+offset_top = -248.0
+offset_right = 336.0
+offset_bottom = -144.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 0
+texture = ExtResource("5_0amia")
+
+[node name="minigame_button" type="Button" parent="button start/TextureRect3"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -160.0
+offset_top = -28.0
+offset_right = 180.0
+offset_bottom = 63.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.721569, 1, 0.6, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("6_c6uc0")
+theme_override_font_sizes/font_size = 69
+text = "MINI GAME"
+flat = true
+
+[node name="TextureRect2" type="TextureRect" parent="button start"]
+texture_filter = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -328.0
+offset_top = -136.0
+offset_right = -64.0
+offset_bottom = -32.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 0
+texture = ExtResource("5_0amia")
+
+[node name="about_button" type="Button" parent="button start/TextureRect2"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -92.0
+offset_top = -28.0
+offset_right = 101.0
+offset_bottom = 63.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.721569, 1, 0.6, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("6_c6uc0")
+theme_override_font_sizes/font_size = 80
+text = "ABOUT"
+flat = true
+
+[node name="TextureRect4" type="TextureRect" parent="button start"]
+texture_filter = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = 32.0
+offset_top = -136.0
+offset_right = 296.0
+offset_bottom = -32.0
+grow_horizontal = 2
+grow_vertical = 0
+size_flags_horizontal = 0
+texture = ExtResource("5_0amia")
+
+[node name="level2_button" type="Button" parent="button start/TextureRect4"]
+texture_filter = 1
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.515
+anchor_top = 0.5
+anchor_right = 0.515
+anchor_bottom = 0.5
+offset_left = -71.96
+offset_top = -28.0
+offset_right = 88.04
+offset_bottom = 63.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.721569, 1, 0.6, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("6_c6uc0")
+theme_override_font_sizes/font_size = 80
+text = "EXIT"
 flat = true
 
 [node name="level1_button" type="Button" parent="button start"]
@@ -241,4 +355,7 @@ volume_db = -3.0
 autoplay = true
 
 [connection signal="pressed" from="button start/TextureRect/level2_button" to="." method="_on_level_2_button_pressed"]
+[connection signal="pressed" from="button start/TextureRect3/minigame_button" to="." method="_on_minigame_button_pressed"]
+[connection signal="pressed" from="button start/TextureRect2/about_button" to="." method="_on_about_button_pressed"]
+[connection signal="pressed" from="button start/TextureRect4/level2_button" to="." method="_on_level_2_button_pressed"]
 [connection signal="pressed" from="button start/level1_button" to="." method="_on_level_1_button_pressed"]

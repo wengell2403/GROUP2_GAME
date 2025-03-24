@@ -1,6 +1,9 @@
-Node
-AudioStreamPlayer2D
 Button
+TextureRect
 Label
+Node
+VBoxContainer
+ScrollContainer
+AudioStreamPlayer2D
 GridContainer
 Control

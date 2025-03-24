@@ -1,14 +1,20 @@
-res://Scene/Levels/level3a_bstm.tscn
+res://Scene/Levels/level1.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
+res://Scene/Levels/game_manager.gd
 res://Scene/main_menu.tscn
 res://Scene/Levels/level2_bstm.tscn
-res://Scene/Levels/level4_bstm.tscn
-res://Scene/Game Objects/collectible_3bstm.tscn
-res://Scene/Game Objects/collectible_4bstm.tscn
-res://Scene/Game Objects/collectible_2bstm.tscn
-res://Scene/Game Objects/collectible_2bshm.tscn
-res://Assets/Characters/enemy_stress.tscn
-res://Scene/Levels/level5_bstm.tscn
 res://Scene/Levels/level6_bstm.tscn
-res://Scene/Game Objects/collectible_6bstm.tscn
+res://Scene/mini game/control.tscn
+res://Scene/mini game/math.tscn
+res://Scene/mini game/MathQuiz.gd
+res://Scene/Menu/character_select.tscn
+res://tic_tac_toe.gd
+res://Scene/Menu/minigame_menu.tscn
+res://Scene/Menu/minigame_menu.gd
+res://Scene/main_menu.gd
+res://about.gd
+res://Scene/about.tscn
+res://Scene/members.tscn
+res://Scene/members.gd
+res://Scene/about.gd
