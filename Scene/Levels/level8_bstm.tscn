@@ -939,10 +939,7 @@ position = Vector2(2075, 645)
 position = Vector2(2127, 266)
 
 [node name="enemy_fear4" parent="." instance=ExtResource("11_woh1q")]
-position = Vector2(-60, 792)
-
-[node name="enemy_fear5" parent="." instance=ExtResource("11_woh1q")]
-position = Vector2(54, 791)
+position = Vector2(-39, 792)
 
 [connection signal="body_entered" from="SceneObjects/fall_area" to="SceneObjects/fall_area" method="_on_body_entered"]
 [connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Continue" to="UI/Pause" method="_on_continue_pressed"]
