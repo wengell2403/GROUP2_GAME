@@ -165,8 +165,8 @@ script = ExtResource("1_gsxl8")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(59.7841, 65.6932)
-scale = Vector2(1.63849, 1.63849)
+position = Vector2(60.1421, 45.4955)
+scale = Vector2(2.42862, 2.24744)
 sprite_frames = SubResource("SpriteFrames_ympw1")
 autoplay = "default"
 frame_progress = 0.510403

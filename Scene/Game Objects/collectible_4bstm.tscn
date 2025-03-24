@@ -158,21 +158,21 @@ animations = [{
 }]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_11tyt"]
-size = Vector2(30.75, 34)
+size = Vector2(45.375, 45)
 
 [node name="collectible_2" type="Area2D"]
 script = ExtResource("1_u78vj")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
 texture_filter = 1
-position = Vector2(59, 69)
-scale = Vector2(1.23224, 1.23224)
+position = Vector2(67.6421, 60.3579)
+scale = Vector2(1.77237, 1.77237)
 sprite_frames = SubResource("SpriteFrames_bx1nw")
 autoplay = "default"
 frame_progress = 0.724249
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(58, 70)
+position = Vector2(67, 64)
 shape = SubResource("RectangleShape2D_11tyt")
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]
