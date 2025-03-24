@@ -1,8 +1,5 @@
-res://Scene/Levels/level1_bstm.tscn
+res://Scene/Levels/level3a_bstm.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
-res://Scene/Levels/level3a_bstm.tscn
-res://Scene/Levels/level2_bstm.tscn
 res://Scene/main_menu.tscn
-res://Assets/Characters/enemy_fear.tscn
-res://Assets/Characters/enemy_procastination.tscn
+res://Scene/Levels/level2_bstm.tscn
