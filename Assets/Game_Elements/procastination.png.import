@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mmdr1ey4n6xa"
-path="res://.godot/imported/dresscs.png-3ca9d01a0bbbe9097a376ddab1c2e09b.ctex"
+uid="uid://7136hfk28oni"
+path="res://.godot/imported/procastination.png-9159b33139281df0d0bdfc1aa12d8992.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Scene/Game Objects/dresscs.png"
-dest_files=["res://.godot/imported/dresscs.png-3ca9d01a0bbbe9097a376ddab1c2e09b.ctex"]
+source_file="res://Assets/Game_Elements/procastination.png"
+dest_files=["res://.godot/imported/procastination.png-9159b33139281df0d0bdfc1aa12d8992.ctex"]
 
 [params]
 
