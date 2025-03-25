@@ -5,3 +5,9 @@ res://Scene/main_menu.tscn
 res://Scene/Menu/character_select.tscn
 res://Scene/Levels/level1_bsn.tscn
 res://Scene/about.tscn
+res://Scene/Menu/pause.tscn
+res://Scene/Levels/level1.tscn
+res://Scene/Levels/level1_bstm.tscn
+res://Scene/Levels/level4_bstm.tscn
+res://Scene/Levels/level6_bstm.tscn
+res://Scene/Levels/level7_bstm.tscn
