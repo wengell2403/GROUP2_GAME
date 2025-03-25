@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://bgcgsw74jbx32"]
+[gd_scene load_steps=10 format=3 uid="uid://bgcgsw74jbx32"]
 
 [ext_resource type="Script" path="res://Scene/members.gd" id="1_h8any"]
 [ext_resource type="Texture2D" uid="uid://b0jgooqur87vn" path="res://Assets/Background/noon_bg.png" id="1_x3q5u"]
@@ -6,8 +6,9 @@
 [ext_resource type="Texture2D" uid="uid://bgeep4wcxiaoj" path="res://Assets/membersimage/ann_image.jpg" id="3_nefir"]
 [ext_resource type="Texture2D" uid="uid://c2no0421sf8de" path="res://Assets/membersimage/image_glenn.png" id="4_cw3cb"]
 [ext_resource type="Texture2D" uid="uid://g21bax6xg74l" path="res://Assets/membersimage/image_jade (1).jpg" id="5_t3q6q"]
-[ext_resource type="Texture2D" uid="uid://d17i4ktapagoe" path="res://Assets/membersimage/image_weng.jpg" id="6_gx3nl"]
+[ext_resource type="Texture2D" uid="uid://cmcmsgr8ii6ex" path="res://Assets/membersimage/image_weng.jpg" id="6_gx3nl"]
 [ext_resource type="Texture2D" uid="uid://jqp8i7gf6s3b" path="res://Assets/Game_Elements/ui_button.png" id="7_oslru"]
+[ext_resource type="Texture2D" uid="uid://cm6drw6t4s1kf" path="res://Assets/membersimage/image_dela.jpg" id="9_6e076"]
 
 [node name="Node" type="Node"]
 script = ExtResource("1_h8any")
@@ -78,23 +79,23 @@ theme_override_font_sizes/font_size = 30
 text = "Lopez, Jade Russel A."
 
 [node name="AnnImage" type="Sprite2D" parent="."]
-position = Vector2(738, 470)
-scale = Vector2(0.423, 0.368)
+position = Vector2(736, 467)
+scale = Vector2(0.3775, 0.368)
 texture = ExtResource("3_nefir")
 
 [node name="ImageGlenn" type="Sprite2D" parent="."]
-position = Vector2(243, 207)
-scale = Vector2(0.346667, 0.298333)
+position = Vector2(257.75, 209.625)
+scale = Vector2(0.294167, 0.284583)
 texture = ExtResource("4_cw3cb")
 
 [node name="ImageJade(1)" type="Sprite2D" parent="."]
-position = Vector2(395, 469)
-scale = Vector2(0.119401, 0.101667)
+position = Vector2(379.27, 466.249)
+scale = Vector2(0.101923, 0.0986107)
 texture = ExtResource("5_t3q6q")
 
 [node name="ImageWeng" type="Sprite2D" parent="."]
-position = Vector2(883, 212)
-scale = Vector2(0.341667, 0.300833)
+position = Vector2(866.75, 210.375)
+scale = Vector2(0.290834, 0.285417)
 texture = ExtResource("6_gx3nl")
 
 [node name="TextureRect" type="TextureRect" parent="."]
@@ -124,5 +125,10 @@ theme_override_fonts/font = ExtResource("2_i6f65")
 theme_override_font_sizes/font_size = 69
 text = "<"
 flat = true
+
+[node name="imagedela" type="Sprite2D" parent="."]
+position = Vector2(578, 209)
+scale = Vector2(0.149412, 0.149412)
+texture = ExtResource("9_6e076")
 
 [connection signal="pressed" from="TextureRect/back" to="." method="_on_back_pressed"]

@@ -1,7 +1,9 @@
-Button
 TextureRect
-Label
 Node
+Sprite2D
+Button
+Label
+AnimatedSprite2D
 VBoxContainer
 ScrollContainer
 AudioStreamPlayer2D
