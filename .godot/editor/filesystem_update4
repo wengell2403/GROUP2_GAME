@@ -1,6 +1,4 @@
-res://Scene/Levels/level1.tscn
+res://Scene/Levels/level1_bstm.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
-res://Scene/Levels/level1_bshm.tscn
 res://Scene/Levels/level1_bsn.tscn
-res://Scene/Levels/level1_bstm.tscn
