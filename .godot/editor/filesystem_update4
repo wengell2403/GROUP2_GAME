@@ -1,20 +1,6 @@
-res://Scene/main_menu.tscn
+res://Scene/Levels/level1.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
-res://Scene/Menu/character_select.tscn
-res://Scene/Levels/level1.tscn
+res://Scene/Levels/level1_bshm.tscn
 res://Scene/Levels/level1_bsn.tscn
 res://Scene/Levels/level1_bstm.tscn
-res://Scene/Levels/level4_bstm.tscn
-res://Scene/Levels/level6_bstm.tscn
-res://Scene/Levels/level7_bstm.tscn
-res://Scene/Levels/level1_bshm.tscn
-res://Assets/DialogSystem/Scripts/dialog-scene-hm/dialog_system-hm.tscn
-res://Assets/DialogSystem/Dialogs/bshm-dialog/dialog_interaction_hm.gd
-res://Assets/DialogSystem/Dialogs/bsn-dialog/dialog_interaction_n.gd
-res://Assets/DialogSystem/Dialogs/bstm-dialog/dialog_interaction_tm.gd
-res://Assets/DialogSystem/Scripts/dialog-scene-n/dialog_system-n.tscn
-res://Assets/DialogSystem/Scripts/dialog-scene-tm/dialog_system-tm.tscn
-res://Assets/DialogSystem/Dialogs/bshm-dialog/dialog_interaction_hm.tscn
-res://Assets/DialogSystem/Dialogs/bsn-dialog/dialog_interaction_n.tscn
-res://Assets/DialogSystem/Dialogs/bstm-dialog/dialog_interaction_tm.tscn
