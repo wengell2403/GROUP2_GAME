@@ -1,23 +1,23 @@
-[gd_scene load_steps=10 format=3 uid="uid://dtqmxufyuc6sw"]
+[gd_scene load_steps=10 format=3 uid="uid://xrj0kiy8e4hb"]
 
-[ext_resource type="Texture2D" uid="uid://ds8t5t6gblfoe" path="res://Assets/DialogSystem/Scripts/quest trigger-Sheet.png" id="1_0b4ut"]
-[ext_resource type="Script" path="res://Assets/DialogSystem/Dialogs/dialog_interaction.gd" id="1_1gacr"]
-[ext_resource type="Script" path="res://Assets/DialogSystem/Dialogs/dialog_text.gd" id="3_p4dtn"]
+[ext_resource type="Script" path="res://Assets/DialogSystem/Dialogs/bsn-dialog/dialog_interaction_n.gd" id="1_af402"]
+[ext_resource type="Texture2D" uid="uid://ds8t5t6gblfoe" path="res://Assets/DialogSystem/Scripts/quest trigger-Sheet.png" id="2_wgke6"]
+[ext_resource type="Script" path="res://Assets/DialogSystem/Dialogs/dialog_text.gd" id="3_s8ygs"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_istew"]
-atlas = ExtResource("1_0b4ut")
+atlas = ExtResource("2_wgke6")
 region = Rect2(0, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ixqy0"]
-atlas = ExtResource("1_0b4ut")
+atlas = ExtResource("2_wgke6")
 region = Rect2(32, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_t1exb"]
-atlas = ExtResource("1_0b4ut")
+atlas = ExtResource("2_wgke6")
 region = Rect2(64, 0, 32, 32)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_2bbqj"]
-atlas = ExtResource("1_0b4ut")
+atlas = ExtResource("2_wgke6")
 region = Rect2(96, 0, 32, 32)
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_u556j"]
@@ -45,7 +45,7 @@ size = Vector2(50, 48)
 
 [node name="DialogInteraction" type="Area2D"]
 monitorable = false
-script = ExtResource("1_1gacr")
+script = ExtResource("1_af402")
 
 [node name="Sprite2D" type="AnimatedSprite2D" parent="."]
 unique_name_in_owner = true
@@ -60,7 +60,7 @@ position = Vector2(0, 15)
 shape = SubResource("RectangleShape2D_vhhop")
 
 [node name="DialogText" type="Node" parent="."]
-script = ExtResource("3_p4dtn")
+script = ExtResource("3_s8ygs")
 text = "Hello"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

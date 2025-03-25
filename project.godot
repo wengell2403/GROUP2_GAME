@@ -17,8 +17,11 @@ config/features=PackedStringArray("4.3", "GL Compatibility")
 [autoload]
 
 AudioController="*res://Scene/Game Objects/audio_controller.tscn"
-DialogSystem="*res://Assets/DialogSystem/dialog_system.tscn"
+DialogSystem="*res://Assets/DialogSystem/Scripts/dialog-scene-it/dialog_system.tscn"
+DialogSystemHm="*res://Assets/DialogSystem/Scripts/dialog-scene-hm/dialog_system-hm.tscn"
+DialogSystemN="*res://Assets/DialogSystem/Scripts/dialog-scene-n/dialog_system-n.tscn"
 GameManager="*res://Scene/Levels/game_manager.gd"
+DialogSystemTm="*res://Assets/DialogSystem/Scripts/dialog-scene-tm/dialog_system-tm.tscn"
 
 [display]
 

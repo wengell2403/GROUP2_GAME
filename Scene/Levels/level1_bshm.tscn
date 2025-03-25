@@ -1,4 +1,4 @@
-[gd_scene load_steps=30 format=3 uid="uid://fv0aom2f1gja"]
+[gd_scene load_steps=29 format=3 uid="uid://fv0aom2f1gja"]
 
 [ext_resource type="Script" path="res://Scene/Levels/main_scene.gd" id="1_kiiu2"]
 [ext_resource type="Texture2D" uid="uid://t52d7v42wwr4" path="res://Assets/Background/sky.png" id="2_763ko"]
@@ -11,15 +11,14 @@
 [ext_resource type="PackedScene" uid="uid://3e8r72cattme" path="res://Scene/Game Objects/tarpoline_bounce.tscn" id="9_j3cnn"]
 [ext_resource type="PackedScene" uid="uid://b2g0ux0hb1pge" path="res://Scene/Levels/level2_bshm.tscn" id="9_vaowi"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="10_f2pmb"]
+[ext_resource type="PackedScene" uid="uid://fffaalws5cge" path="res://Assets/DialogSystem/Dialogs/bshm-dialog/dialog_interaction_hm.tscn" id="11_tcpva"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="12_hmjm7"]
 [ext_resource type="Texture2D" uid="uid://c6pqbdsbqfdc6" path="res://Assets/Game_Elements/ui_score.png" id="13_40c1b"]
 [ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="14_o6o7b"]
 [ext_resource type="Texture2D" uid="uid://g6vpe88m4uoy" path="res://Assets/Game_Elements/heart.png" id="15_yq4gh"]
 [ext_resource type="Script" path="res://Scene/Levels/pause.gd" id="16_2seqj"]
 [ext_resource type="PackedScene" uid="uid://b0wo02j30lmx1" path="res://Scene/Game Objects/audio_controller.tscn" id="17_5tl7v"]
-[ext_resource type="PackedScene" uid="uid://dtqmxufyuc6sw" path="res://Assets/DialogSystem/Dialogs/dialog_interaction.tscn" id="19_83tjk"]
 [ext_resource type="PackedScene" uid="uid://bqtqvueu1k42" path="res://Scene/Game Objects/collectible_1bshm.tscn" id="20_7l5i1"]
-[ext_resource type="Script" path="res://Assets/DialogSystem/Dialogs/dialog_text.gd" id="20_832uc"]
 [ext_resource type="PackedScene" uid="uid://c2jm41k33kn6v" path="res://Scene/Game Objects/moving_platform.tscn" id="21_ep4ge"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_u2q56"]
@@ -464,7 +463,7 @@ position = Vector2(2449, 577)
 target_level = ExtResource("9_vaowi")
 
 [node name="CharacterBody2D" parent="SceneObjects" instance=ExtResource("7_mjriw")]
-position = Vector2(94, -331)
+position = Vector2(-9, -301)
 
 [node name="Area2D" type="Area2D" parent="SceneObjects"]
 script = ExtResource("10_f2pmb")
@@ -472,6 +471,9 @@ script = ExtResource("10_f2pmb")
 [node name="CollisionShape2D" type="CollisionShape2D" parent="SceneObjects/Area2D"]
 position = Vector2(174, 289)
 shape = SubResource("WorldBoundaryShape2D_abvt1")
+
+[node name="DialogInteraction" parent="SceneObjects" instance=ExtResource("11_tcpva")]
+position = Vector2(147, 437)
 
 [node name="GameManager" type="Node" parent="." node_paths=PackedStringArray("hearts")]
 unique_name_in_owner = true
@@ -639,45 +641,6 @@ theme_override_font_sizes/font_size = 20
 text = "Continue"
 
 [node name="audio_controller" parent="." instance=ExtResource("17_5tl7v")]
-
-[node name="DialogInteraction" parent="." instance=ExtResource("19_83tjk")]
-position = Vector2(46, 437)
-
-[node name="DialogText2" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "Greetings, I’m the dean of the college department. And you are?"
-
-[node name="DialogText3" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "Ah, a new student. So you chose IT huh..."
-
-[node name="DialogText4" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "Many students have lost their minds choosing this path. "
-
-[node name="DialogText5" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "I’m kidding. I was just trying to loosen you up. You seem nervous."
-
-[node name="DialogText6" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "That’s the spirit! All college courses have their own difficulty and the challenges vary. "
-
-[node name="DialogText7" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "Throughout your journey, you will solve puzzles, and collect items to study a subject."
-
-[node name="DialogText8" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "Also, be sure to be not swayed away by negative emotions and fear. "
-
-[node name="DialogText9" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "All you have to do is to believe in yourself and you will survive each semester. Got it?"
-
-[node name="DialogText10" type="Node" parent="DialogInteraction"]
-script = ExtResource("20_832uc")
-text = "Goodluck!"
 
 [node name="RigidBody2D4" parent="." instance=ExtResource("9_j3cnn")]
 position = Vector2(137, -6)
