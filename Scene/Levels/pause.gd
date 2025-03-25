@@ -18,3 +18,6 @@ func _on_continue_pressed():
 		pause_panel.hide()
 		get_tree().paused = false
 		
+		
+func _on_tutorial_pressed() -> void:
+	get_tree().change_scene_to_file("res://Scene/Menu/tutorial.tscn")

@@ -1,0 +1,117 @@
+[gd_scene load_steps=5 format=3 uid="uid://bmpo4br7fi04s"]
+
+[ext_resource type="Script" path="res://Scene/Menu/tutorial1.gd" id="1_sl0vi"]
+[ext_resource type="Texture2D" uid="uid://c817hutxugkvt" path="res://Assets/Background/night.png" id="1_wy26d"]
+[ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="2_nv7yd"]
+[ext_resource type="Texture2D" uid="uid://jqp8i7gf6s3b" path="res://Assets/Game_Elements/ui_button.png" id="3_iqlns"]
+
+[node name="Node" type="Node"]
+script = ExtResource("1_sl0vi")
+
+[node name="Night" type="Sprite2D" parent="."]
+position = Vector2(586.5, 324.75)
+scale = Vector2(1.45647, 1.23055)
+texture = ExtResource("1_wy26d")
+
+[node name="Label" type="Label" parent="."]
+offset_left = 440.0
+offset_top = 57.0
+offset_right = 704.0
+offset_bottom = 109.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_nv7yd")
+theme_override_font_sizes/font_size = 52
+text = "HOW TO PLAY"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 119.0
+offset_top = 202.0
+offset_right = 1039.0
+offset_bottom = 239.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_nv7yd")
+theme_override_font_sizes/font_size = 36
+text = "Step 1: Start the game and choose your character."
+horizontal_alignment = 3
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 121.0
+offset_top = 298.0
+offset_right = 1038.0
+offset_bottom = 375.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_nv7yd")
+theme_override_font_sizes/font_size = 36
+text = "Step 2: Use the A, W, S, D, Space keypad to move, jump 
+or Use the Up, Down, Left, Right keypad."
+horizontal_alignment = 3
+
+[node name="Label4" type="Label" parent="."]
+offset_left = 124.0
+offset_top = 440.0
+offset_right = 1044.0
+offset_bottom = 479.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_nv7yd")
+theme_override_font_sizes/font_size = 36
+text = "Step 3: Move the character and gather collectibles."
+horizontal_alignment = 3
+
+[node name="TextureRect" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = 532.0
+offset_top = 547.0
+offset_right = 638.0
+offset_bottom = 602.0
+texture = ExtResource("3_iqlns")
+
+[node name="Button" type="Button" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -39.0
+offset_top = -19.5
+offset_right = 46.0
+offset_bottom = 30.5
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.721569, 1, 0.6, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_nv7yd")
+theme_override_font_sizes/font_size = 41
+text = ">"
+flat = true
+
+[node name="TextureRect2" type="TextureRect" parent="."]
+texture_filter = 1
+offset_left = 20.0
+offset_top = 18.0
+offset_right = 126.0
+offset_bottom = 73.0
+texture = ExtResource("3_iqlns")
+
+[node name="Button" type="Button" parent="TextureRect2"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.524
+anchor_bottom = 0.5
+offset_left = -39.0
+offset_top = -18.5
+offset_right = 43.456
+offset_bottom = 31.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_outline_color = Color(0.721569, 1, 0.6, 1)
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_nv7yd")
+theme_override_font_sizes/font_size = 41
+text = "<"
+flat = true
+
+[connection signal="pressed" from="TextureRect/Button" to="." method="_on_tutorial2_button_pressed"]
+[connection signal="pressed" from="TextureRect2/Button" to="." method="_on_mainmenu_button_pressed"]

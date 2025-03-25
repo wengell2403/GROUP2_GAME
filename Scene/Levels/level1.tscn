@@ -755,7 +755,6 @@ script = ExtResource("15_6c0m2")
 
 [node name="PausePanel" type="Panel" parent="UI/Pause"]
 unique_name_in_owner = true
-visible = false
 anchors_preset = 8
 anchor_left = 0.5
 anchor_top = 0.5
@@ -807,6 +806,18 @@ size_flags_horizontal = 4
 size_flags_vertical = 4
 theme_override_font_sizes/font_size = 20
 text = "Continue"
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="UI/Pause/PausePanel"]
+layout_mode = 2
+offset_left = 211.5
+offset_top = 150.5
+offset_right = 307.5
+offset_bottom = 181.5
+
+[node name="Tutorial" type="Button" parent="UI/Pause/PausePanel/VBoxContainer2"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Tutorial"
 
 [node name="Pause" parent="UI/Pause" instance=ExtResource("12_ixgyf")]
 
@@ -901,3 +912,4 @@ position = Vector2(1079, 407)
 
 [connection signal="body_entered" from="SceneObjects/Area2D" to="SceneObjects/Area2D" method="_on_body_entered"]
 [connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer/Continue" to="UI/Pause" method="_on_continue_pressed"]
+[connection signal="pressed" from="UI/Pause/PausePanel/VBoxContainer2/Tutorial" to="." method="_on_tutorial_pressed"]

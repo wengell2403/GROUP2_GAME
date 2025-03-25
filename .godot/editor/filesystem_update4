@@ -1,13 +1,16 @@
-res://Scene/members.tscn
+res://Scene/Levels/level1.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
+res://Scene/Menu/tutorial.tscn
+res://Scene/Menu/tutorial2.tscn
+res://Scene/Menu/tutorial_2.gd
 res://Scene/main_menu.tscn
 res://Scene/Menu/character_select.tscn
 res://Scene/Levels/level1_bsn.tscn
-res://Scene/about.tscn
-res://Scene/Menu/pause.tscn
-res://Scene/Levels/level1.tscn
 res://Scene/Levels/level1_bstm.tscn
 res://Scene/Levels/level4_bstm.tscn
 res://Scene/Levels/level6_bstm.tscn
 res://Scene/Levels/level7_bstm.tscn
+res://Scene/Menu/tutorial1.gd
+res://Scene/Levels/main_scene.gd
+res://Scene/Levels/pause.gd

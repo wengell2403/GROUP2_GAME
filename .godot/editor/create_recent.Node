@@ -1,10 +1,11 @@
-TextureRect
-Node
-Sprite2D
 Button
+TextureRect
+TextEdit
 Label
-AnimatedSprite2D
+Node
 VBoxContainer
+Sprite2D
+AnimatedSprite2D
 ScrollContainer
 AudioStreamPlayer2D
 GridContainer
