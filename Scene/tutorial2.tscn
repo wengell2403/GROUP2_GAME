@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://c0hcbctmwaeew"]
+
+[ext_resource type="Texture2D" uid="uid://bb5hqars7tdam" path="res://Assets/Background/night_bg.png" id="1_1ll6y"]
+[ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="2_h56rx"]
+
+[node name="Node" type="Node"]
+
+[node name="NightBg" type="Sprite2D" parent="."]
+position = Vector2(608, 358)
+scale = Vector2(0.59375, 0.655556)
+texture = ExtResource("1_1ll6y")
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 428.0
+offset_top = 71.0
+offset_right = 783.0
+offset_bottom = 142.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_h56rx")
+theme_override_font_sizes/font_size = 70
+text = "HOW TO PLAY"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 78.0
+offset_top = 178.0
+offset_right = 598.0
+offset_bottom = 249.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_h56rx")
+theme_override_font_sizes/font_size = 33
+text = "Step 3: Move the character 
+and gather collectibles.
+"
+horizontal_alignment = 3
+
+[node name="Label3" type="Label" parent="."]
+offset_left = 630.0
+offset_top = 122.0
+offset_right = 734.0
+offset_bottom = 284.0
+theme_override_constants/outline_size = 10
+theme_override_fonts/font = ExtResource("2_h56rx")
+theme_override_font_sizes/font_size = 121
+text = "→
+"
+horizontal_alignment = 3

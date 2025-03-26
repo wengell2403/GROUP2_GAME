@@ -1,8 +1,8 @@
-TextureRect
-Node
-Sprite2D
-Button
 Label
+Node
+Button
+TextureRect
+Sprite2D
 AnimatedSprite2D
 VBoxContainer
 ScrollContainer
