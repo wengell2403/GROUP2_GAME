@@ -6,3 +6,12 @@ res://Scene/Levels/level1_bsn.tscn
 res://Scene/Levels/level1_bstm.tscn
 res://Scene/main_menu.tscn
 res://Scene/tutorial.tscn
+res://Scene/tutorial2.tscn
+res://Scene/Levels/level3a.tscn
+res://Scene/tutorial_2.gd
+res://Scene/tutorial.gd
+res://Scene/main_menu.gd
+res://Scene/mini game/math.tscn
+res://Scene/mini game/MathQuiz.gd
+res://Scene/mini game/control.tscn
+res://Scene/Menu/minigame_menu.tscn

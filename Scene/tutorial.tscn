@@ -1,12 +1,14 @@
-[gd_scene load_steps=6 format=3 uid="uid://cpaivsagd17ce"]
+[gd_scene load_steps=7 format=3 uid="uid://cpaivsagd17ce"]
 
 [ext_resource type="Texture2D" uid="uid://bb5hqars7tdam" path="res://Assets/Background/night_bg.png" id="1_40hvv"]
+[ext_resource type="Script" path="res://Scene/tutorial.gd" id="1_qm2cy"]
 [ext_resource type="FontFile" uid="uid://nsdsdvtwvjbv" path="res://Assets/Game_Elements/SummerPixel22Regular-jE0W7.ttf" id="2_mwxgf"]
 [ext_resource type="Texture2D" uid="uid://cxi7prbbmlew0" path="res://Assets/tutorialpics/character.png" id="4_43vlw"]
 [ext_resource type="Texture2D" uid="uid://jqp8i7gf6s3b" path="res://Assets/Game_Elements/ui_button.png" id="5_rrr8d"]
 [ext_resource type="Texture2D" uid="uid://bjlt0byh62b71" path="res://Assets/tutorialpics/start.png" id="5_ujb8y"]
 
 [node name="Node" type="Node"]
+script = ExtResource("1_qm2cy")
 
 [node name="NightBg" type="Sprite2D" parent="."]
 position = Vector2(576, 324)
@@ -139,3 +141,6 @@ flat = true
 position = Vector2(856, 184)
 scale = Vector2(1.12454, 1.16667)
 texture = ExtResource("5_ujb8y")
+
+[connection signal="pressed" from="TextureRect/next" to="." method="_on_next_pressed"]
+[connection signal="pressed" from="TextureRect2/back" to="." method="_on_back_pressed"]

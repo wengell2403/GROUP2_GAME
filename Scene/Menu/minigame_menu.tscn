@@ -9,25 +9,26 @@
 script = ExtResource("1_6adji")
 
 [node name="NightBg" type="Sprite2D" parent="."]
-position = Vector2(579.5, 323.5)
-scale = Vector2(0.562988, 0.60463)
+position = Vector2(597, 323.5)
+scale = Vector2(0.580078, 0.60463)
 texture = ExtResource("1_55xop")
 
 [node name="Label" type="Label" parent="NightBg"]
-offset_left = -343.702
-offset_top = -372.956
-offset_right = 279.298
-offset_bottom = -221.956
+offset_left = -327.977
+offset_top = -377.917
+offset_right = 295.023
+offset_bottom = -226.917
+theme_override_constants/outline_size = 10
 theme_override_fonts/font = ExtResource("2_n3ybn")
 theme_override_font_sizes/font_size = 150
 text = "MINI GAME"
 
 [node name="TextureRect" type="TextureRect" parent="."]
 texture_filter = 1
-offset_left = 99.0
-offset_top = 247.0
-offset_right = 513.0
-offset_bottom = 432.0
+offset_left = 108.0
+offset_top = 271.0
+offset_right = 522.0
+offset_bottom = 456.0
 texture = ExtResource("3_51m4v")
 
 [node name="Button" type="Button" parent="TextureRect"]
@@ -51,10 +52,10 @@ flat = true
 
 [node name="TextureRect2" type="TextureRect" parent="."]
 texture_filter = 1
-offset_left = 612.0
-offset_top = 245.0
-offset_right = 1010.0
-offset_bottom = 419.0
+offset_left = 628.0
+offset_top = 277.0
+offset_right = 1026.0
+offset_bottom = 451.0
 texture = ExtResource("3_51m4v")
 
 [node name="Button" type="Button" parent="TextureRect2"]

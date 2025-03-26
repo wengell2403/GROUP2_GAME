@@ -1,7 +1,7 @@
+TextureRect
 Label
 Node
 Button
-TextureRect
 Sprite2D
 AnimatedSprite2D
 VBoxContainer

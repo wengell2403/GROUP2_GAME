@@ -5,7 +5,7 @@ var num2 = 0
 var correct_answer = 0
 var choices = []
 var score = 0
-var max_score = 1  # Winning score
+var max_score = 10  # Winning score
 
 @onready var question_label = $QuestionLabel
 @onready var score_label = $ScoreLabel
@@ -22,7 +22,7 @@ func _ready():
 
 func generate_question():
 	if score >= max_score:
-		win_label.text = "You Win! 🎉"
+		win_label.text = "You Win!"
 		win_label.show()
 		return  # Stop generating questions
 
@@ -66,7 +66,7 @@ func _on_answer_selected(answer):
 		score_label.text = "Score: " + str(score)
 		generate_question()
 	else:
-		result_label.text = "❌ Try Again!"
+		result_label.text = "Try Again!"
 		result_label.show()  # Show the "Try Again!" message
 
 func _restart_game():

@@ -315,7 +315,7 @@ grow_vertical = 0
 size_flags_horizontal = 0
 texture = ExtResource("5_0amia")
 
-[node name="level2_button" type="Button" parent="button start/TextureRect4"]
+[node name="exit_button" type="Button" parent="button start/TextureRect4"]
 texture_filter = 1
 layout_mode = 1
 anchors_preset = -1
@@ -353,7 +353,7 @@ grow_vertical = 0
 size_flags_horizontal = 0
 texture = ExtResource("5_0amia")
 
-[node name="level2_button" type="Button" parent="button start/TextureRect5"]
+[node name="tutorial_button" type="Button" parent="button start/TextureRect5"]
 texture_filter = 1
 layout_mode = 1
 anchors_preset = -1
@@ -399,6 +399,5 @@ autoplay = true
 [connection signal="pressed" from="button start/TextureRect/level2_button" to="." method="_on_level_2_button_pressed"]
 [connection signal="pressed" from="button start/TextureRect3/minigame_button" to="." method="_on_minigame_button_pressed"]
 [connection signal="pressed" from="button start/TextureRect2/about_button" to="." method="_on_about_button_pressed"]
-[connection signal="pressed" from="button start/TextureRect4/level2_button" to="." method="_on_level_2_button_pressed"]
-[connection signal="pressed" from="button start/TextureRect5/level2_button" to="." method="_on_level_2_button_pressed"]
+[connection signal="pressed" from="button start/TextureRect5/tutorial_button" to="." method="_on_tutorial_button_pressed"]
 [connection signal="pressed" from="button start/level1_button" to="." method="_on_level_1_button_pressed"]
