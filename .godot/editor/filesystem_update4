@@ -1,13 +1,7 @@
-res://Scene/Levels/level1.tscn
+res://Scene/Levels/level3a_bsn.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
-res://Scene/Levels/level1_bshm.tscn
-res://Scene/Levels/level1_bsn.tscn
-res://Scene/Levels/level1_bstm.tscn
-res://Scene/main_menu.tscn
-res://Assets/DialogSystem/Dialogs/bsit-dialog/dialog_interaction.tscn
 res://Scene/Levels/level2_bsn.tscn
-res://Scene/Levels/level7.tscn
-res://Scene/Levels/level8_bstm.tscn
-res://Scene/Levels/level7_bshm.tscn
-res://Scene/Levels/level8_bshm.tscn
+res://Scene/Levels/level4_bsn.tscn
+res://Scene/Levels/level5_bsn.tscn
+res://Scene/Levels/level6_bsn.tscn
