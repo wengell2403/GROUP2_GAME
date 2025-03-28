@@ -5,3 +5,13 @@ res://Scene/Levels/level2_bsn.tscn
 res://Scene/Levels/level4_bsn.tscn
 res://Scene/Levels/level5_bsn.tscn
 res://Scene/Levels/level6_bsn.tscn
+res://Scene/Game Objects/collectible_6bsn.tscn
+res://Scene/Levels/level7_bsn.tscn
+res://Scene/Levels/level8_bsn.tscn
+res://Scene/Levels/level1.tscn
+res://Scene/Levels/level1_bshm.tscn
+res://Assets/DialogSystem/Dialogs/bshm-dialog/dialog_interaction_hm.tscn
+res://Assets/DialogSystem/Dialogs/bsn-dialog/dialog_interaction_n.tscn
+res://Scene/Levels/level1_bsn.tscn
+res://Assets/DialogSystem/Dialogs/bstm-dialog/dialog_interaction_tm.tscn
+res://Scene/Levels/level1_bstm.tscn

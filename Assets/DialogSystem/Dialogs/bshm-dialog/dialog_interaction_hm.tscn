@@ -61,6 +61,22 @@ shape = SubResource("RectangleShape2D_vhhop")
 
 [node name="DialogText" type="Node" parent="."]
 script = ExtResource("3_y1vhn")
-text = "Hello"
+text = "Hello!"
+
+[node name="DialogText2" type="Node" parent="."]
+script = ExtResource("3_y1vhn")
+text = "Another new student under our department! Welcome!"
+
+[node name="DialogText3" type="Node" parent="."]
+script = ExtResource("3_y1vhn")
+text = "In this field, you need to master the art of service, from culinary skills to managing people and events."
+
+[node name="DialogText4" type="Node" parent="."]
+script = ExtResource("3_y1vhn")
+text = "So, you'll collect cute items related to those subjects!"
+
+[node name="DialogText5" type="Node" parent="."]
+script = ExtResource("3_y1vhn")
+text = "Stay sharp, stay professional, and always put your best foot forward.  Best wishes!"
 
 [connection signal="body_entered" from="." to="." method="_on_body_entered"]

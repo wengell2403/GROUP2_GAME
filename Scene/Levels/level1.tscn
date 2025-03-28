@@ -851,31 +851,31 @@ position = Vector2(203, 389)
 
 [node name="DialogText2" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "Greetings, I’m the dean of the college department. And you are?"
+text = "Greetings, I’m the dean of the college department. "
 
 [node name="DialogText3" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "Ah, a new student. So you chose IT huh..."
+text = "You're a new student. So you chose IT huh..."
 
 [node name="DialogText4" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "Many students have lost their minds choosing this path. "
+text = "I’ve heard students say they’re coding in their sleep—"
 
 [node name="DialogText5" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "I’m kidding. I was just trying to loosen you up. You seem nervous."
+text = "Hahaha! I'’m kidding. I was just trying to loosen you up. You seem nervous!"
 
 [node name="DialogText6" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "That’s the spirit! All college courses have their own difficulty and the challenges vary. "
+text = "You know, all college courses have their own difficulty and the challenges vary. "
 
 [node name="DialogText7" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "Throughout your journey, you will solve puzzles, and collect items to study a subject."
+text = "Throughout your journey, you can solve puzzles, and collect items related to your subect."
 
 [node name="DialogText8" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
-text = "Also, be sure to be not swayed away by negative emotions and fear. "
+text = "Also, be sure to be not swayed away by negative emotions like anxiety...  "
 
 [node name="DialogText9" type="Node" parent="DialogInteraction"]
 script = ExtResource("19_75o56")
