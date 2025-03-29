@@ -579,7 +579,7 @@ offset_bottom = 62.0
 theme_override_colors/font_color = Color(1, 0.952941, 0.85098, 1)
 theme_override_fonts/font = ExtResource("15_ngrto")
 theme_override_font_sizes/font_size = 37
-text = "LVL 7"
+text = "LVL 8"
 
 [node name="Panel" type="TextureRect" parent="UI"]
 texture_filter = 1
