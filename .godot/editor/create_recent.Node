@@ -1,3 +1,5 @@
+AudioStreamPlayer
+AudioStreamPlayer2D
 Node
 TextureRect
 Label
@@ -6,6 +8,5 @@ Sprite2D
 AnimatedSprite2D
 VBoxContainer
 ScrollContainer
-AudioStreamPlayer2D
 GridContainer
 Control

@@ -18,6 +18,7 @@ func _on_area_2d_body_entered(body: Node2D) -> void:
 		if(y_delta > -370):
 			print("jumppp")
 			#queue_free()
+			#body.jump_bounce(-1450)
 			body.jump_bounce(-1450)
 			
 		$AnimatedSprite2D.play("bounce")

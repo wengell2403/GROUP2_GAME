@@ -22,6 +22,7 @@ func _on_area_2d_body_entered(body):
 			print("Destroy Enemy")
 			queue_free()
 			body.jump_bounce(-500)
+			#body.jump(-500)
 		else:
 			print("Decrease health")
 			game_manager.decrease_health()
