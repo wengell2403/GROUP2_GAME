@@ -7,10 +7,6 @@ extends Node
 var points = 0
 var lives = 3
 
-func _ready():
-	AudioPlayerz.play_music_level()
-
-
 func decrease_health():
 	lives -= 1
 	print(lives)

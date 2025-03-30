@@ -439,7 +439,7 @@ _data = {
 }
 point_count = 6
 
-[node name="Node" type="Node"]
+[node name="Node2" type="Node"]
 script = ExtResource("1_5ssma")
 
 [node name="SceneObjects" type="Node" parent="."]

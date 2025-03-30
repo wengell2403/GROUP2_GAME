@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://bhp7gfys3m8qy"]
+[gd_scene load_steps=28 format=3 uid="uid://bdqlknsegukst"]
 
 [ext_resource type="Script" path="res://Scene/Levels/main_scene.gd" id="1_njwmp"]
 [ext_resource type="Texture2D" uid="uid://b0jgooqur87vn" path="res://Assets/Background/noon_bg.png" id="2_jhau0"]
@@ -9,7 +9,7 @@
 [ext_resource type="Texture2D" uid="uid://6i8o7w7v4sv0" path="res://Assets/Terrain/blue_mud tile.png" id="6_yg5n0"]
 [ext_resource type="PackedScene" uid="uid://rp7d3gem3c8e" path="res://Scene/Game Objects/trophy.tscn" id="7_gnllc"]
 [ext_resource type="Script" path="res://Scene/Game Objects/fall_area.gd" id="9_2ta3s"]
-[ext_resource type="PackedScene" uid="uid://oap8pj7qeaxq" path="res://Scene/Levels/level5_bsn.tscn" id="10_2bkjg"]
+[ext_resource type="PackedScene" path="res://Scene/Levels/level5_bsn.tscn" id="10_2bkjg"]
 [ext_resource type="PackedScene" uid="uid://3e8r72cattme" path="res://Scene/Game Objects/tarpoline_bounce.tscn" id="10_kcc0a"]
 [ext_resource type="PackedScene" uid="uid://c2jm41k33kn6v" path="res://Scene/Game Objects/moving_platform.tscn" id="11_emlbf"]
 [ext_resource type="Script" path="res://Scene/Levels/game_manager.gd" id="13_dbirr"]
@@ -439,7 +439,7 @@ _data = {
 }
 point_count = 3
 
-[node name="Node" type="Node"]
+[node name="Node2" type="Node"]
 script = ExtResource("1_njwmp")
 
 [node name="SceneObjects" type="Node" parent="."]

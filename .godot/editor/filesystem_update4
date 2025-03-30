@@ -1,36 +1,33 @@
+res://Scene/Levels/level1.tscn
 res://Assets/DialogSystem/Scripts/dialog_system.gd
 res://Scene/Game Objects/character_it.gd
-res://Scene/audio_player2.tscn
-res://Scene/audio_playerz.tscn
-res://Scene/audio_playerz.gd
-res://Scene/Game Objects/audio_playerz.tscn
-res://Scene/Levels/game_manager.gd
-res://Assets/DialogSystem/Dialogs/bshm-dialog/dialog_interaction_hm.tscn
-res://Scene/Levels/level1_bsn.tscn
-res://Scene/Levels/level1_bstm.tscn
-res://Scene/Game Objects/audio_controller.tscn
-res://Scene/main_menu.tscn
-res://Scene/Levels/level1.tscn
-res://Scene/Menu/character_select.tscn
 res://Scene/Levels/level1_bshm.tscn
-res://Scene/Levels/level6_bstm.tscn
-res://Scene/Game Objects/character_IT.tscn
-res://Assets/Characters/enemy_fear.gd
-res://Scene/Levels/trampoline.gd
-res://Scene/Levels/level3a.tscn
-res://Scene/Levels/level2_bsn.tscn
-res://Scene/Levels/level3a_bsn.tscn
-res://Scene/Levels/level4_bsn.tscn
-res://Scene/Levels/level5_bsn.tscn
-res://Scene/Levels/level7_bsn.tscn
-res://Scene/Levels/level8_bsn.tscn
-res://Scene/Levels/level6_bsn.tscn
-res://Scene/Levels/level2_bstm.tscn
-res://Scene/Levels/level8_bstm.tscn
+res://Scene/Levels/level1_bstm.tscn
 res://Scene/Levels/level2.tscn
 res://Scene/Levels/level2_bshm.tscn
+res://Scene/Levels/level2_bsn.tscn
+res://Scene/Levels/level2_bstm.tscn
 res://Scene/Levels/level3a_bshm.tscn
-res://Scene/Levels/level3a_bstm.tscn
+res://Scene/Levels/level3a_bsn.tscn
 res://Scene/Levels/level4.tscn
 res://Scene/Levels/level4_bshm.tscn
+res://Scene/Levels/level4_bsn.tscn
 res://Scene/Levels/level4_bstm.tscn
+res://Scene/Game Objects/audio_controller.gd
+res://Scene/Game Objects/audio_playerz.gd
+res://Scene/Menu/character_select.gd
+res://Scene/Menu/congratulations.gd
+res://Assets/DialogSystem/Dialogs/bsit-dialog/dialog_interaction.gd
+res://Assets/DialogSystem/Dialogs/bshm-dialog/dialog_interaction_hm.gd
+res://Assets/DialogSystem/Dialogs/bsn-dialog/dialog_interaction_n.gd
+res://Assets/DialogSystem/Dialogs/bstm-dialog/dialog_interaction_tm.gd
+res://Assets/DialogSystem/Dialogs/dialog_item.gd
+res://Assets/DialogSystem/Dialogs/dialog_text.gd
+res://Assets/Characters/enemy_fear.gd
+res://Scene/Levels/game_manager.gd
+res://Scene/main_menu.gd
+res://Scene/mini game/MathQuiz.gd
+res://Scene/Game Objects/sound_controller.gd
+res://Scene/Levels/trampoline.gd
+res://Scene/tutorial.gd
+res://Scene/tutorial_2.gd

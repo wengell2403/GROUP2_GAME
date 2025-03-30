@@ -445,7 +445,7 @@ _data = {
 }
 point_count = 3
 
-[node name="Node" type="Node"]
+[node name="Node2" type="Node"]
 script = ExtResource("1_74wqj")
 
 [node name="SceneObjects" type="Node" parent="."]

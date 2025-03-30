@@ -1,4 +1,4 @@
-[gd_scene load_steps=28 format=3 uid="uid://c3b750oij44nt"]
+[gd_scene load_steps=28 format=3 uid="uid://bj00rjkiwt2jw"]
 
 [ext_resource type="Script" path="res://Scene/Levels/main_scene.gd" id="1_gvnl1"]
 [ext_resource type="Texture2D" uid="uid://b0jgooqur87vn" path="res://Assets/Background/noon_bg.png" id="2_1ndcg"]
@@ -438,7 +438,7 @@ _data = {
 }
 point_count = 2
 
-[node name="Node" type="Node"]
+[node name="Node2" type="Node"]
 script = ExtResource("1_gvnl1")
 
 [node name="SceneObjects" type="Node" parent="."]

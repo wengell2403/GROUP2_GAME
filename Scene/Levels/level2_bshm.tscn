@@ -443,7 +443,7 @@ _data = {
 }
 point_count = 2
 
-[node name="Node" type="Node"]
+[node name="Node2" type="Node"]
 script = ExtResource("1_ylg27")
 
 [node name="SceneObjects" type="Node" parent="."]
